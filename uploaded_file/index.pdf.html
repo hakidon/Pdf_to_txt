@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>PDF To TXT Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- -------NAV BAR------- -->
+    <nav class="nav-alt">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+            <img class="menu"  src="images/icons8-menu-24.png" alt="">
+        </label>
+        <label class="logo">Hacked lol</label>
+        <ul>
+            <li><a class='a-alt' href="#">hacked by hakidon</a></li>
+            <!-- <li><a href="#convertSec">Convert</a></li>
+            <li><a href="#stepSec">Steps</a></li>
+            <li><a href="#memberSec">Group Members</a></li> -->
+        </ul>
+    </nav>
+
+    <!-- -------DRAG SECTION------- -->
+    <section class="convert" id="convertSec">
+        <div class="upload"></div>
+        <div class="drop-area" id="drop-area">
+            <img class="pdfIcon" src="images/pdftxt.png">
+            <p class="drop-text">Hacked.<br> Do better next time</p>
+            <span class="drop-div">Go and fix your file validation before someone else got here</span>
+            <!-- <div class="button-position">
+                <label class="button" id="button">
+                    <input type="file" name="fileToUpload" id="fileToUpload" autocomplete="off" accept="application/pdf"
+                        onclick=buttonHidden(download) oninput=uploads(fileToUpload.files)>
+                    Select file</label>
+            </div> -->
+
+            
+            <div class="download" id="download"></div>
+			<div id='message'></div>
+
+        <span class=button id="refresh" style="visibility:hidden" onclick=reload()> Convert again </span>
+        </div>
+        
+    </section>
+
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>
